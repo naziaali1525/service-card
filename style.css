@@ -1,0 +1,51 @@
+.card-rate {
+    font-size: 24px; 
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 700;
+}
+.card-rate a {
+    text-decoration: none;
+    line-height: 24px;
+}
+
+.card-btn {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.nopadding {
+    padding: 0 !important;
+    margin: 0 !important;
+}
+
+.icon {
+    font-size: 13px;
+    font-weight: 700;
+    
+}
+
+
+@media only screen and (max-width: 46em) and (orientation: portrait){
+    .card-rate {
+    background: rgba(255,255,255,0.8);
+    border-radius: 4px;
+    box-shadow: 0 0 1px rgba(0,0,0,0.7);
+    padding: 10px 12px;
+    font-size: 21px;
+    position: absolute;
+    right: 25px;
+    bottom:227px;
+    }
+}
+@media only screen and (max-width: 46em) and (orientation: portrait){
+    .card-info {
+        display: inline;
+    }
+    .card-p {
+        padding: 0px !important;
+    }
+   
+    
+}
+
+
